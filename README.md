@@ -33,18 +33,20 @@ This is rails boilerplate project.
 Backend:
 
 - PostgreSQL
-- 
+- Redis
  
 Frontend (as gems):
 
 - jQuery
+- React (via [rails_react](https://github.com/reactjs/react-rails) gem)
 
 Frontend (as node_modules):
 
-- 
+- React
 
 Development tools:
 
 - capistrano
 - rubocop
 - guard
+- rspec
