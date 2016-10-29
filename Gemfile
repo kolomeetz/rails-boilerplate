@@ -37,6 +37,10 @@ group :development do
   gem 'guard-bundler'
   gem 'guard-rspec', require: false
   gem 'guard-rubocop'
+  gem 'terminal-notifier'
+  gem 'terminal-notifier-guard'
+
+  gem 'foreman'
 
   gem 'factory_girl'
 

@@ -15,6 +15,8 @@
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
+notification :terminal_notifier, activate: 'com.googlecode.iTerm2' if `uname` =~ /Darwin/
+
 guard :bundler do
   require 'guard/bundler'
   require 'guard/bundler/verify'
