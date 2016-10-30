@@ -13,7 +13,11 @@
 !/log/.keep
 !/tmp/.keep
 
+# Ignore installed node modules
 node_modules/
+
+# Ignore ENV configuration files
+.env*
 
 # Ignore Byebug command history file.
 .byebug_history
