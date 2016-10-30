@@ -15,9 +15,8 @@
 //= require jquery_ujs
 //= require react
 //= require react_ujs
-//= require_tree .
 
-//= NODE MODULES
+// NODE MODULES
 
 // APPLICATION CODE
-//= require components
+//= require ./components/index.es6.js

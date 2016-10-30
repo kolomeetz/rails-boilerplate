@@ -28,7 +28,7 @@ Frontend (as node_modules):
 
 - React (for dependency resolutions)
 - Redux
--
+- browserify
 
 Development tools:
 
