@@ -23,11 +23,12 @@ Frontend (as gems):
 - React (via [rails_react](https://github.com/reactjs/react-rails) gem)
 - SASS for stylesheets
 - browserify
+- bootstrap 4.0.0-alpha5
 
 Frontend (as node_modules):
 
-- React (for dependency resolutions)
-- Redux
+- react (for dependency resolutions)
+- redux
 - browserify
 
 Development tools:
@@ -54,7 +55,6 @@ Development tools:
 ## TODO 
 
 - add bootstrap 4
-- add es6, babel
 - add rspec
 - add redis, sidekiq and sidekiq-admin
 - add exception_notification

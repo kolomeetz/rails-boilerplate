@@ -15,6 +15,8 @@
 //= require jquery_ujs
 //= require react
 //= require react_ujs
+//= require tether
+//= require bootstrap
 
 // NODE MODULES
 
