@@ -13,6 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'react-rails'
+gem 'browserify-rails'
 
 # Use Redis adapter to run Action Cable in production
 # Use ActiveModel has_secure_password

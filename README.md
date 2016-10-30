@@ -1,31 +1,8 @@
-# README
+# Rails Boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is rails boilerplate project to speed up launching fullstack
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-This is rails boilerplate project.
-
+on React
 
 `rails new rails-boilerplate -d postgresql --skip-turbolinks`
 
@@ -40,11 +17,13 @@ Frontend (as gems):
 - jQuery
 - React (via [rails_react](https://github.com/reactjs/react-rails) gem)
 - SASS for stylesheets
-- 
+- browserify
 
 Frontend (as node_modules):
 
-- React
+- React (for dependency resolutions)
+- Redux
+-
 
 Development tools:
 
@@ -54,8 +33,6 @@ Development tools:
 - capistrano
 - rubocop
 
-
- 
 ## How to
 
 - fork the repository and checkout your fork locally

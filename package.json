@@ -1,0 +1,27 @@
+{
+  "name": "rails-boilerplate",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolomeetz/rails-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kolomeetz/rails-boilerplate/issues"
+  },
+  "homepage": "https://github.com/kolomeetz/rails-boilerplate#readme",
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "browserify-incremental": "^3.1.1",
+    "redux": "^3.6.0"
+  }
+}
