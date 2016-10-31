@@ -1,22 +1,18 @@
 # Rails Boilerplate
 
-TL;DR: Rails 5 + React + Redux + ES6 boilerplate.
+TL;DR: Rails 5 + ES6 + React + Redux boilerplate.
 
 ## Description
 
-This is Rails boilerplate project to speed up building fullstack applications wh
-
-on React
-
-`rails new rails-boilerplate -d postgresql --skip-turbolinks`
+This is Rails boilerplate project to speed up building fullstack applications 
+with Rails 5 and modern Javascript stack.
 
 ## Ingredients:
 
 Backend:
 
 - PostgreSQL (9.1+)
-- Redis
- 
+
 Frontend (as gems):
 
 - jQuery
@@ -24,6 +20,8 @@ Frontend (as gems):
 - SASS for stylesheets
 - browserify
 - bootstrap 4.0.0-alpha5
+
+No Turbolinks
 
 Frontend (as node_modules):
 
@@ -35,26 +33,22 @@ Development tools:
 
 - foreman
 - guard
-- rspec
 - capistrano
 - rubocop
 
-## How to
+## How to start
 
 - fork the repository and checkout your fork locally
-- run `rake boilerplate:boil`
-- change something in the code
-- set env variables in `~/.dev`
-- set database configuration
+- set new module name in `config/application.rb`
+- set env variables in `~/.env`
 - run `bundle install`
-- run `rake db:setup`
+- run `rake db:create`
 - run `npm install`
-- run `foreman start`
+- launch `foreman start`
 - open http://localhost:5000
 
 ## TODO 
 
-- add bootstrap 4
 - add rspec
 - add redis, sidekiq and sidekiq-admin
 - add exception_notification
